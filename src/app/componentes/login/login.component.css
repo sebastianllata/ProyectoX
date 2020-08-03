@@ -1,0 +1,29 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cajita-dark{
+    width: 30%;
+    height: 60%;
+    background: rgb(162, 225, 236);
+    opacity:0.9;
+}
+.pop{
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}

@@ -1,0 +1,79 @@
+<div class="container-fluid">
+    <div class="row no-gutters ">
+        <div class="col-2 container-fluid "  >
+          <div class="navbar-nav sidebar sidebar-dark accordion " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <!-- Brand/logo -->
+            <!--<a cl   ass="navbar-brand" href="#"></a>-->
+            <!-- Links -->
+            <ul class="nav flex-column bg-dark text-white text-center">
+              <a class="navbar-nav sidebar sidebar-dark accordion text-center text-light" href="#">
+                <div class="sidebar-brand-icon rotate-n-15  mt-3">
+                  <i class="fa fa-fort-awesome  fa-2x fa-lg text-center"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">El Gran Hotel</div>
+              </a>
+              <hr>
+              <li class="nav-item container-fluid " >
+                <a class="nav-link text-light text-center" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-tv"></i> Principal</a>
+              </li>
+              <hr>
+              <li class="nav-item container-fluid">
+                <a class="nav-link text-light" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa fa-th-list"></i> Alquiler de Habitaciones</a>
+              </li>
+              <hr>
+              <li class="nav-item  container-fluid">
+                <a class="nav-link text-light" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-users"></i> Clientes</a>
+              </li>
+              <hr>
+              <li class="nav-item  container-fluid">
+                <a class="nav-link text-light collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-home"></i> Habitaciones</a>
+              </li>
+              <hr>
+              <li class="nav-item container-fluid ">
+                <a class="nav-link text-light" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa fa-signal"></i> Reportes</a>
+              </li>
+              <hr>
+              <li class="nav-item container-fluid ">
+                <a class="nav-link text-light" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-user"></i> Usuarios</a>
+              </li>
+              <hr>
+              
+              
+            </ul>
+          </div>
+          <
+                
+        </div>
+        <div class="col-10 container-fluid" >
+            <div>
+                <nav class="navbar bg-dark navbar-dark ">
+                    <!-- Brand/logo -->
+                    <!--<a class="navbar-brand" href="#"></a>-->
+                    <a class="navbar-brand" href="#">{{this.nombre}} {{this.rol}}</a>
+                    
+                    <!-- Links -->
+                    <ul class="nav justify-content-end">
+                      <li>
+                          <button class="btn btn-dark" onclick="login()" routerLink="/login"><i class="fa fa-user " ></i> {{this.nombre}} </button>
+                          <button class="btn btn-danger" (click)="cerrarSession()">Cerrar Sesion </button>
+                        </li>
+                    </ul>
+                  </nav>
+
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">home
+                  <hr/>
+                  bgdghfsdhbhs
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">colapso</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">jarvis</div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">aguita</div>
+              </div>
+            
+            <div>
+
+            </div>
+        </div>
+    </div>
+</div>
