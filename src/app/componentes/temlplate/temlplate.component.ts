@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Usuarios } from 'src/app/modelos/usuarios';
 import { Router } from '@angular/router';
+import { Personas } from 'src/app/modelos/personas';
 
 @Component({
   selector: 'app-temlplate',
@@ -12,6 +13,8 @@ export class TemlplateComponent implements OnInit {
   public usuario:Usuarios;
   public rol:String;
   public nombre:String;
+
+  public persona:Personas;
 
   constructor(private router : Router) {
     this.rol = JSON.parse(sessionStorage.getItem("usuario")).nomrol;
